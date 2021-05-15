@@ -1,0 +1,58 @@
+body {
+        background-color: #d8eeee;
+    }
+
+h1 {
+    color: #00bfbf;
+    text-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #66bfbf;
+}
+
+h4 {
+    color: #66bfbf;
+}
+
+a {
+    text-decoration: line-through;
+}
+
+p {
+    text-align: justify;
+}
+
+hr {
+    /* border-style: dotted none none;
+    border-width: 8px;
+    border-color: blue;
+    width: 11%; */
+
+    /* border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%; */
+
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 7%;
+
+    /* top and bottom | left and right */
+    /* border-style: dotted solid; */
+
+    /* top | left and right | bottom */
+        /* border-style: hidden double dashed; */
+
+    /* top | right | bottom | left */
+    /* border-style: none solid dotted dashed; */
+
+    /* Global values */
+    /* border-style: inherit;
+    border-style: initial;
+    border-style: unset; */
+    }    
+
