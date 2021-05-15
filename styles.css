@@ -1,7 +1,6 @@
 body {
-        background-color: #d8eeee;
-        width: 60%;
-        text-align: center;
+    background-color: #d8eeee;
+    width: 60%;
     }
 
 h1 {
@@ -41,7 +40,7 @@ hr {
     border-style: dotted none none;
     border-color: grey;
     border-width: 5px;
-    width: 7%;
+    width: 5%;
 
     /* top and bottom | left and right */
     /* border-style: dotted solid; */
