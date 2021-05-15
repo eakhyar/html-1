@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
     <h3>Contact Me</h3>
     <form action="mailto:akhyarm@naver.com" method="post" enctype="text/plain">
         <table cellspacing="12">
             <tr>
                 <td>
-                    <label>Name</label>
+                    <label>Name
                 </td>
                 <td>
                     <input type="text" name="yourName" id="">
+                    </label>
                 </td>
             </tr>
             <tr>
@@ -28,10 +32,16 @@
             </tr>
             <tr>
                 <td>
-                    <label>Message</label>
+                    <label for="">Your Hobby:</label>
                 </td>
                 <td>
-                    <textarea name="yourMessage" id="" cols="22" rows="2"></textarea>
+                    <select name="" id="">
+                        <option value="">--Select your choiche--</option>
+                        <option value="">Lorem</option>
+                        <option value="">Ipsum</option>
+                        <option value="">Dolor</option>
+                        <option value="">Sit</option>
+                    </select>
                 </td>
             </tr>
             <tr>
@@ -50,6 +60,14 @@
                     <input type="range" name="yourRange" id="">
                     <input type="radio" name="yourRadio" id="">
                     <input type="checkbox" name="yourCheckbox" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Message</label>
+                </td>
+                <td>
+                    <textarea name="yourMessage" id="" cols="20" rows="2"></textarea>
                 </td>
             </tr>
             <tr>
@@ -79,8 +97,8 @@
                     <li>Telp</li>
                 </ul>
             </td>
-            <td>: +62 8515 6760 908</td> 
-<!-- <a href="tel:+62.8515.6760.908">Telp. +62 8515 6760 908</a> -->
+            <td>: +62 8515 6760 908</td>
+            <!-- <a href="tel:+62.8515.6760.908">Telp. +62 8515 6760 908</a> -->
         </tr>
         <tr>
             <td>
@@ -89,7 +107,7 @@
                 </ul>
             </td>
             <td>: akhyarm@naver.com</td>
-        </tr>    
+        </tr>
         <tr>
             <td>
                 <ul>
@@ -99,7 +117,7 @@
             <td>: @eakhyar</td>
         </tr>
     </table>
-    
+
 </body>
 <!-- 
     li {
@@ -110,4 +128,5 @@ li li{
     list-style-type: square;
 }
 -->
+
 </html>
